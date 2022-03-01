@@ -37,7 +37,8 @@ export default function LandingPage() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
-        // justifyContent:'center'
+        borderBottom:'8px solid #222'
+
       }}
     >
       <Box

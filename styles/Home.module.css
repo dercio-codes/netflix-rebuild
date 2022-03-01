@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-minHeight: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -41,7 +41,7 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  line-minHeight: 1.15;
   font-size: 4rem;
 }
 
@@ -52,7 +52,7 @@
 
 .description {
   margin: 4rem 0;
-  line-height: 1.5;
+  line-minHeight: 1.5;
   font-size: 1.5rem;
 }
 
@@ -100,11 +100,11 @@
 .card p {
   margin: 0;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-minHeight: 1.5;
 }
 
 .logo {
-  height: 1em;
+  minHeight: 1em;
   margin-left: 0.5rem;
 }
 

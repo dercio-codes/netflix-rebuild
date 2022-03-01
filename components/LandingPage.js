@@ -9,12 +9,12 @@ export default function LandingPage() {
         style={{
           fill: "#e50914",
         }}
-        class="svg-nfLogo our-story-logo nfLogo"
+        className="svg-nfLogo our-story-logo nfLogo"
         data-uia="netflix-header-svg-logo-noclick"
       >
         <svg
           viewBox="0 0 111 30"
-          class="svg-icon svg-icon-netflix-logo"
+          className="svg-icon svg-icon-netflix-logo"
           focusable="false"
         >
           <g id="netflix-logo">
@@ -24,7 +24,7 @@ export default function LandingPage() {
             ></path>
           </g>
         </svg>
-        <span class="screen-reader-text"></span>
+        <span className="screen-reader-text"></span>
       </span>
     );
   };
@@ -32,7 +32,7 @@ export default function LandingPage() {
   return (
     <Box
       sx={{
-        minHeight: "100vh",
+        minminHeight: "100vh",
         backgroundImage: `url("https://assets.nflxext.com/ffe/siteui/vlv3/8607d312-c4d0-4ce2-955d-50d728ae845f/2b232a4e-5468-4016-8a20-43f1df14f151/ZA-en-20220226-popsignuptwoweeks-perspective_alpha_website_small.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -43,7 +43,7 @@ export default function LandingPage() {
     >
       <Box
         sx={{
-          height: "100vh",
+        minHminHeight: "100vh",
           width: "100%",
           background:
             "linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,.2) 60%,rgba(0,0,0,.8) 100%)",
@@ -56,7 +56,7 @@ export default function LandingPage() {
             sx={{
               display: "flex",
               justifyContent: "space-between",
-              height: "30vh",
+              minHeight: "30vh",
               padding: "30px 40px",
               background:
                 "linear-gradient(to top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,9) 100%)",
@@ -75,7 +75,7 @@ export default function LandingPage() {
                 background: "#e50914",
                 color: "#eee",
                 fontWeight: "900",
-                height:'50px',
+                minHeight:'50px',
                 "&:hover": {
                   background: "#e50914",
                   color: "#aaa",

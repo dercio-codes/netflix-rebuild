@@ -5,7 +5,7 @@ const PhoneSection = () => {
   return (
     <Box
       sx={{
-        height: "65vh",
+        minHeight: "65vh",
         background: "black",
         // padding: "50px",
         borderBottom: "8px solid #222",
@@ -26,7 +26,7 @@ const PhoneSection = () => {
             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
             alt=""
             style={{
-              height: "55vh",
+              minHeight: "55vh",
               objectFit: "contain",
               objectPosition: "center",
             }}
@@ -93,7 +93,7 @@ const PhoneSection = () => {
                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
                 alt=""
                 width={"50px"}
-                height={"50px"}
+                minHeight={"50px"}
               />
             </Box>
           </Box>

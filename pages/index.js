@@ -1,4 +1,5 @@
 import Enjoy from "../components/Enjoy";
+import Kid from "../components/Kid";
 import LandingPage from "../components/LandingPage";
 import PhoneSection from "../components/PhoneSection";
 import WatchEverywhere from "../components/WatchEverywhere";
@@ -10,6 +11,7 @@ export default function Home() {
       <PhoneSection />
       <WatchEverywhere />
       <Enjoy/>
+      <Kid/>
     </div>
   );
 }

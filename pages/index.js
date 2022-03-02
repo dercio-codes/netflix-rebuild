@@ -1,4 +1,5 @@
 import Enjoy from "../components/Enjoy";
+import Frequently from "../components/Frequently";
 import Kid from "../components/Kid";
 import LandingPage from "../components/LandingPage";
 import PhoneSection from "../components/PhoneSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <WatchEverywhere />
       <Enjoy/>
       <Kid/>
+      <Frequently/>
     </div>
   );
 }

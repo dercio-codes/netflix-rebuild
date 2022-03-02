@@ -28,7 +28,9 @@ const Frequently = () => {
           >
             Frequently Asked Questions
           </Typography>
-
+          <Typography variant="h5" align="center" sx={{color:"white",margin:"10px 0",fontSize:"15px"}}>
+              Ready to watch? Enter your email to create or restart your membership.
+              </Typography>
           <Box
             style={{
               height:"50px",
@@ -38,6 +40,7 @@ const Frequently = () => {
               justifyContent:"center"
             }}
           >
+            
             <TextField
               variant="filled"
               placeholder="Email address"

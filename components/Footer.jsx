@@ -2,12 +2,24 @@ import React from "react";
 import { Box, Grid, Stack, Typography } from "@mui/material";
 
 const grey = {
+  margin:"10px 0",
   color: "#555",
   '&:hover':{
       cursor:"pointer",
     textDecoration:"underline"
 }
 };
+
+const greyUnder = {
+  marginTop:"40px ",
+  fontSize:"14px",
+  // height:"100px",
+  color: "#555",
+  '&:hover':{
+      cursor:"pointer",
+    textDecoration:"underline"
+}
+}
 const item = {
     marginTop:"40px",
     display:"flex",
@@ -18,7 +30,7 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        height: "55vh",
+        height: "auto",
         background: "black",
         padding: "50px 100px",
       }}
@@ -29,85 +41,69 @@ const Footer = () => {
       <Grid container>
         <Grid item md={3} sx={item}>
           <Typography sx={grey} variant="p">
-            hello world
+           FAQ
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Investor Relations
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+            Term of use
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+            contact us
           </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
+        
         </Grid>
         <Grid item md={3} sx={item}>
         <Typography sx={grey} variant="p">
-            hello world
+          Help center
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+            jobs
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+            privacy
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+           speed test
           </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
+
         </Grid>
         <Grid item md={3} sx={item}>
         <Typography sx={grey} variant="p">
-            hello world
+        Account
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Redeem Gift Cards
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Cookie Preferences
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Legal Notices
           </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
+       
         </Grid>
         <Grid item md={3} sx={item}>
         <Typography sx={grey} variant="p">
-            hello world
+        Media Center
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Ways to Watch
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
+          Corporate Information
           </Typography>
           <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
-          </Typography>
-          <Typography sx={grey} variant="p">
-            hello world
+          Only on Netflix
           </Typography>
         </Grid>
       </Grid>
+      <p style={greyUnder}>
+        
+      Netflix South Africa
+        </p> 
+      
     </Box>
   );
 };

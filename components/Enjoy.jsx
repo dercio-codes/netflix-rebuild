@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 
 const player = {
    position:"absolute",
-
+  marginBottom:"10px"
 
 }
 
@@ -29,7 +29,7 @@ const Enjoy = () => {
             justifyContent: "center",
             color:'#eee',
             flexDirection:'column',
-            padding:'40px'
+            padding:'40px 120px'
           }}
         >
           <Typography
@@ -65,17 +65,19 @@ const Enjoy = () => {
               height: "55vh",
               objectFit: "contain",
               objectPosition: "center",
+              zIndex:"2"
             }}
           />
       
 
             <ReactPlayer
               // autoplay
-              loop="true"
+              playing ="true"
               width="300px"
-              height="140px"
-              url="vid.m4v"
+              height="170px"
+              // url="vid.m4v"
               url="https://www.youtube.com/watch?v=IE8HIsIrq4o"
+              // url="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
              style={player}
             />
 

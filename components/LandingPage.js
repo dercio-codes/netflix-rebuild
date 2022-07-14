@@ -9,12 +9,12 @@ export default function LandingPage() {
         style={{
           fill: "#e50914",
         }}
-        class="svg-nfLogo our-story-logo nfLogo"
+        className="svg-nfLogo our-story-logo nfLogo"
         data-uia="netflix-header-svg-logo-noclick"
       >
         <svg
           viewBox="0 0 111 30"
-          class="svg-icon svg-icon-netflix-logo"
+          className="svg-icon svg-icon-netflix-logo"
           focusable="false"
         >
           <g id="netflix-logo">
@@ -24,7 +24,7 @@ export default function LandingPage() {
             ></path>
           </g>
         </svg>
-        <span class="screen-reader-text"></span>
+        <span className="screen-reader-text"></span>
       </span>
     );
   };
